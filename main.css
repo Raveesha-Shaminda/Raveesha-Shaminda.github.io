@@ -1,0 +1,64 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg{
+    background-image: url(/photo-1510519138101-570d1dca3d66.jpeg);
+    color: white;
+    height:100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.logo span{
+    color: red;
+}
+
+.logo p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.copy{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(146, 145, 145);
+    position: absolute;
+    bottom: 0px;
+    left:50%;
+    right: 50%;
+}
+
+.coming{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.coming .cc1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.coming .cc2 {
+    color: rgb(204, 204, 204);
+}
+
+#demo{
+    color: rgb(252, 255, 80);
+}
+
+hr{
+    margin: auto;
+    width: 40%;
+}
