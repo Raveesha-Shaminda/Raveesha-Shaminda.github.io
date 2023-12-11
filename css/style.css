@@ -1,4 +1,5 @@
 body{
+    width: 100%;
     margin: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
@@ -52,7 +53,6 @@ body{
 /*---------home--------*/
 
 .home {
-    width: 100%;
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
