@@ -126,7 +126,6 @@ body{
         width:400px;
         height: 200px;
         text-align: center;
-        padding: 10px;
     }
 
     .home-img{
@@ -140,6 +139,13 @@ body{
         width: 100%;
         justify-content: center;
         overflow: hidden;
+    }
+
+}
+@media screen and (max-width:400px){
+
+    .home-section-1{
+        width: 350px;
     }
 
 }
