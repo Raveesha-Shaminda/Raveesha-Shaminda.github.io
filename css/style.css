@@ -61,11 +61,14 @@ body{
     width: 400px;
     height: 200px;
     padding: 30px;
+    text-align: center;
 }
 
 .home-section-1 h1 span{
     color: rgb(0, 255, 38);
-    text-align: center;
+}
+.home-section-1 h1{
+    font-size: 40px;
 }
 
 .github-btn {
@@ -102,12 +105,17 @@ body{
     background-color: rgb(0, 87, 227);
 }
 
+.home-section-1 i {
+    font-size: 15px;
+}
+
 .home-img {
     width: 575px;
 }
 
 @media screen and (max-width:900px){
     .home{
+        margin-top: 70px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -115,13 +123,14 @@ body{
     }
 
     .home-section-1{
-        width: 300px;
+        width:400px;
         height: 200px;
         text-align: center;
     }
 
     .home-img{
         width: 475px;
+        margin-top: 50px;
     }
 }
 @media screen and (max-width:550px){
