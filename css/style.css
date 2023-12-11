@@ -1,9 +1,132 @@
-.body{
+body{
     margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-.background {
-    width: 100vw;
-    height: 100vh;
-    background-color: #222;
+.navbar {
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    list-style-type: none;
+    margin: 0 10px 0 10px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.sign-in-btn{
+    margin-right: 40px;
+    background-color: rgb(0, 255, 38);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sign-in-btn:hover {
+    background-color: rgb(0, 226, 45);
+}
+
+.navbar li a:hover {
+    color: rgb(0, 226, 45);
+}
+
+
+
+/*---------home--------*/
+
+.home {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-section-1 {
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+}
+
+.home-section-1 h1 span{
+    color: rgb(0, 255, 38);
+    text-align: center;
+}
+
+.github-btn {
+    color: white;
+    background-color: rgb(24, 24, 24);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.github-btn:hover {
+    background-color: rgb(0, 0, 0);
+}
+.yt-btn {
+    color: white;
+    background-color: rgb(255, 30, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.yt-btn:hover {
+    background-color: rgb(223, 26, 0);;
+}
+.fb-btn {
+    color: white;
+    background-color: rgb(10, 103, 252);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.fb-btn:hover {
+    background-color: rgb(0, 87, 227);
+}
+
+.home-img {
+    width: 575px;
+}
+
+@media screen and (max-width:900px){
+    .home{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-section-1{
+        width: 500px;
+        height: 200px;
+        text-align: center;
+    }
+
+    .home-img{
+        width: 575px;
+    }
+}
+@media screen and (max-width:550px){
+    .home{
+        width: fit-content;
+        justify-content: center;
+    }
+
 }
