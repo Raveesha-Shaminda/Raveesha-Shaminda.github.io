@@ -52,7 +52,6 @@ body{
 /*---------home--------*/
 
 .home {
-    width: 100%;
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
@@ -109,10 +108,10 @@ body{
 
 @media screen and (max-width:900px){
     .home{
-        width: 100%;
-        display: grid;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
     }
 
     .home-section-1{
@@ -129,8 +128,8 @@ body{
 
     .home{
         width: 100%;
-        width: fit-content;
         justify-content: center;
+        overflow: hidden;
     }
 
 }
