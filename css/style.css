@@ -2,7 +2,6 @@ body{
     margin: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
-    height: 200vh;
 }
 
 .navbar {
@@ -138,8 +137,19 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
 }
 
+/*------------- update -------------*/
+
 
 /* ------------------ footer --------------------*/
+
+.footer {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.footer .footer-text {
+    text-align: center;
+}
 
 
 @media screen and (max-width:900px){
