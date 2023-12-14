@@ -118,13 +118,13 @@ body{
 
 /* app */
 
-.app-section {
+.section-header {
     cursor: pointer;
     margin-left: 50px;
     width: fit-content;
 }
 
-.app-section:hover{
+.section-header:hover{
     text-decoration: underline;
 }
 
@@ -137,6 +137,10 @@ body{
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
 }
+
+
+/* ------------------ footer --------------------*/
+
 
 @media screen and (max-width:900px){
 
