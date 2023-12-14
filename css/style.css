@@ -114,6 +114,12 @@ body{
     width: 575px;
 }
 
+/*--------------- About me -----------*/
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* app */
 
