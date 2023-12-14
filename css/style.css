@@ -2,6 +2,7 @@ body{
     margin: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
+    height: 200vh;
 }
 
 .navbar {
@@ -10,8 +11,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: fixed !important;
     background-color: white;
+    z-index: 1;
 }
 
 .navbar ul {
@@ -113,7 +115,32 @@ body{
     width: 575px;
 }
 
+
+/* app */
+
+.app-section {
+    cursor: pointer;
+    margin-left: 50px;
+    width: fit-content;
+}
+
+.app-section:hover{
+    text-decoration: underline;
+}
+
+.container {
+    margin-top: 50px;
+    
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+}
+
 @media screen and (max-width:900px){
+
+    /*Home*/
     .home{
         margin-top: 70px;
         flex-direction: column;
@@ -132,8 +159,14 @@ body{
         width: 475px;
         margin-top: 50px;
     }
+
+    /*App*/
+
+    
 }
 @media screen and (max-width:550px){
+
+    /*Home*/
 
     .home{
         width: 100%;
@@ -148,12 +181,7 @@ body{
         width: 350px;
     }
 
-}
+    /*App*/
 
-/* app */
-
-.app {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
